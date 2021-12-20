@@ -248,7 +248,7 @@ footer {
     background-color: #fff;
     position: absolute;
     width: 23rem;
-    height: 24rem;
+    height: 22.7rem;
     border-radius: 1rem;
     overflow: hidden;
     display: flex;
@@ -276,7 +276,7 @@ footer {
     border-radius: 50%;
     position: absolute;
     top: 5.5625rem;
-    left: 8.125rem;
+    left: 8.4375rem;
   }
 
   .card__body {
@@ -287,7 +287,7 @@ footer {
     align-items: center;
     z-index: 1;
     top: 13.4375rem;
-    left: 7.5rem;
+    left: 8.125rem;
     text-align: center;
   }
 
@@ -327,7 +327,7 @@ footer {
   }
 
   .card__number {
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: 700;
   }
 
@@ -336,7 +336,7 @@ footer {
   }
 
   .card__stats {
-    padding-top: 1.5rem;
+    padding-top: 1rem;
   }
 
   .card__stats--followers p:nth-of-type(2) {
@@ -363,7 +363,7 @@ footer {
 
   footer {
     position: relative;
-    top: 10.625rem;
+    top: 10.3125rem;
     border-top: thin solid #e2e2e2;
     width: 100%;
     height: auto;

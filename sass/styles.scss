@@ -188,8 +188,8 @@
             .card {
                 background-color: #fff;
                 position: absolute;
-                width: 25rem;
-                height: 28rem;
+                width: 23rem;
+                height: 23rem;
                 border-radius: 1rem;
                 overflow: hidden;
                 display: flex;
@@ -203,7 +203,7 @@
             }
             .card__header-image {
                 position: absolute;
-                height: 10rem;
+                height: 9rem;
                 width: 100%;
             }
             .card__header-profile {
@@ -213,8 +213,8 @@
                 background-color: #fff;
                 border-radius: 50%;
                 position: absolute;
-                top: 6rem;
-                left: 8.875rem;
+                top: pixelsToRems(80px);
+                left: pixelsToRems(130px);
             }
             .card__body {
                 display: flex;
@@ -223,8 +223,8 @@
                 justify-content: center;
                 align-items: center;
                 z-index: 1;
-                top: 14.375rem;
-                left: 7.8125rem;
+                top: pixelsToRems(210px);
+                left: pixelsToRems(110px);
                 text-align: center;
             }
             .card__text {
@@ -265,7 +265,7 @@
                 left: -0.1rem;
             }
             .card__stats {
-                padding-top: 2rem;
+                padding-top: 1rem;
             }
             .card__stats--followers p:nth-of-type(2) {
                 left: -0.7rem;
@@ -287,7 +287,7 @@
             }
             footer {
                 position: relative;
-                top: 13.125rem;
+                top: pixelsToRems(170px);
                 border-top: thin solid #e2e2e2;
                 width: 100%;
                 height: auto;

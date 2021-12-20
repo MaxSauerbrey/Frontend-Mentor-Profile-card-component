@@ -232,16 +232,16 @@ footer {
     position: relative;
     min-height: 62.5rem;
     min-width: 62.5rem;
-    bottom: 450px;
-    right: 350px;
+    bottom: 28.125rem;
+    right: 15.625rem;
   }
 
   .bg-image--bottom {
     position: relative;
     min-height: 62.5rem;
     min-width: 62.5rem;
-    top: 530px;
-    right: 390px;
+    top: 33.125rem;
+    right: 21.875rem;
   }
 
   .card {

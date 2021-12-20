@@ -175,15 +175,15 @@
                 position: relative;
                 min-height: 62.5rem;
                 min-width: 62.5rem;
-                bottom: 450px;
-                right: 350px;
+                bottom: pixelsToRems(450px);
+                right: pixelsToRems(250px);
             }
             .bg-image--bottom {
                 position: relative;
                 min-height: 62.5rem;
                 min-width: 62.5rem;
-                top: 530px;
-                right: 390px;
+                top: pixelsToRems(530px);
+                right: pixelsToRems(350px);
             }
             .card {
                 background-color: #fff;

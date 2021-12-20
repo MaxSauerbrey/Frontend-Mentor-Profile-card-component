@@ -189,7 +189,7 @@
                 background-color: #fff;
                 position: absolute;
                 width: 23rem;
-                height: 23rem;
+                height: 24rem;
                 border-radius: 1rem;
                 overflow: hidden;
                 display: flex;
@@ -207,13 +207,13 @@
                 width: 100%;
             }
             .card__header-profile {
-                width: 7.5rem;
+                width: 7rem;
                 height: auto;
                 border: thick solid #fff;
                 background-color: #fff;
                 border-radius: 50%;
                 position: absolute;
-                top: pixelsToRems(80px);
+                top: pixelsToRems(89px);
                 left: pixelsToRems(130px);
             }
             .card__body {
@@ -223,56 +223,59 @@
                 justify-content: center;
                 align-items: center;
                 z-index: 1;
-                top: pixelsToRems(210px);
-                left: pixelsToRems(110px);
+                top: pixelsToRems(215px);
+                left: pixelsToRems(120px);
                 text-align: center;
             }
             .card__text {
                 font-weight: 700;
                 font-size: 1.3rem;
-            }
-            .card__text--light {
-                position: relative;
-                font-weight: 400;
-                font-size: 0.8rem;
-                color: #6a6f81;
-                left: 1.875rem;
-            }
-            .card__text--age {
-                display: inline-block;
-                position: relative;
-                left: 5px;
-                font-size: 1.4rem;
-            }
-            .card__text--city {
-                font-size: 0.9rem;
-                top: 0.8125rem;
-            }
-            .card__text--name {
-                display: inline-block;
-                position: relative;
-                right: -5rem;
+                &--light {
+                    position: relative;
+                    font-weight: 400;
+                    font-size: 0.8rem;
+                    color: #6a6f81;
+                    left: 1.875rem;
+                }
+                &--age {
+                    display: inline-block;
+                    position: relative;
+                    left: 5px;
+                    font-size: 1.1rem;
+                }
+                &--city {
+                    font-size: 0.9rem;
+                    top: 0.8125rem;
+                }
+                &--name {
+                    color: $secondary;
+                    font-size: 1.1rem;
+                    display: inline-block;
+                    position: relative;
+                    right: -4rem;
+                }
             }
             .card__footer {
                 display: flex;
+                flex-direction: row;
                 justify-content: space-evenly;
             }
             .card__number {
-                font-size: 1.2rem;
+                font-size: 1rem;
                 font-weight: 700;
             }
             .card__text {
                 left: -0.1rem;
             }
             .card__stats {
-                padding-top: 1rem;
+                padding-top: 1.5rem;
             }
             .card__stats--followers p:nth-of-type(2) {
                 left: -0.7rem;
                 top: 0.4rem;
             }
             .card__stats--likes p:nth-of-type(2) {
-                left: 0.5rem;
+                left: 0.3rem;
                 top: 0.4rem;
             }
             .card__stats--photos p:nth-of-type(2) {
@@ -281,7 +284,7 @@
             }
             .card__text--footer {
                 left: -0.1rem;
-                font-size: 0.7rem;
+                font-size: 0.6rem;
                 letter-spacing: 0.1rem;
                 color: #6a6f81;
             }
